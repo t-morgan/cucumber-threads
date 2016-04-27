@@ -2,6 +2,9 @@ require 'cucumber/core'
 require 'cucumber/core/filter'
 require 'thread'
 
+
+# This seems to work fine for simple scenarios on MRI Ruby.
+# It also is madness for more complex scenarios on JRuby.
 module Cucumber
   module Core
     module Test
